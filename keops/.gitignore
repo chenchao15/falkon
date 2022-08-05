@@ -1,0 +1,59 @@
+# temporaries from editors
+*.vscode*
+*.idea*
+*~
+*.swp
+
+# virtual env
+*venv*
+
+# Build junk
+*build*
+*output*
+!*input_output.py
+/build/*
+!/build/.gitkeep
+*_auto_examples*
+*_auto_tutorials*
+*_auto_benchmarks*
+
+# Exclude mex files
+*mexa64
+
+# Exclude "private" experimental research folders
+*private*
+
+# Exclude the graphs pdf
+*.pdf
+
+# Jupyter notebooks checkpoints
+*.ipynb_checkpoints*
+
+# MacOS hidden files
+.DS_Store
+
+# Compiled python modules.
+*__pycache__*
+*.pyc
+
+# coverage data files
+*.coverage*
+htmlcov
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+/*.egg
+
+keopslab/generic/pathtocmake
+
+keopslab/common/pathtocmake
+
+# R/Rstudio related files
+.Rproj.user
+.Rhistory
+
+# benchmark extra file
+benchmarks/*halide*
