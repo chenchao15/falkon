@@ -1,0 +1,8 @@
+include falkon/VERSION
+include LICENSE
+include pytest.ini
+include MANIFEST.in
+
+global-exclude __pycache__
+global-exclude *.py[co]
+
